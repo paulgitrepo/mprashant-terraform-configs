@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+    /* Set a gradient background from purple to teal */
+    background: linear-gradient(to right, #6a3093, #a044ff, #5f2c82, #49a09d);
+    font-family: Arial, sans-serif;
+    /* Sets a clean, modern font for the body text */
+    color: white;
+    /* Sets the text color to white for better contrast */
+    margin: 0;
+    /* Removes default margin */
+    padding: 0;
+    /* Removes default padding */
+    display: flex;
+    /* Enables flexbox layout */
+    justify-content: center;
+    /* Centers content horizontally */
+    align-items: center;
+    /* Centers content vertically */
+    height: 100vh;
+    /* Makes the body take the full height of the viewport */
+}
+
+h1 {
+    font-size: 2em;
+    /* Sets the size of the header text */
+    text-align: center;
+    /* Centers the header text */
+}
